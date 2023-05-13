@@ -48,7 +48,7 @@ const items2 = [
       children: [
         {
           key: 1,
-          label: <NavLink to='/statics'>Statics</NavLink>,
+          label: <NavLink to='/statics'>Statistics</NavLink>,
         },
         {
           key: 2,
@@ -59,7 +59,7 @@ const items2 = [
     {
       key: 'sub2',
       icon: React.createElement(LaptopOutlined),
-      label: <NavLink to='/about'>MeatingSchudel</NavLink>,
+      label: <NavLink to='/about'>Meeting Schedule</NavLink>,
       children: [
         {
           key: 3,
